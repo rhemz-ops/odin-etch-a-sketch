@@ -27,6 +27,5 @@
 
 .small-div {
     border: 1px solid black;
-    width: 20px;
-    height: 20px;
+    flex: 0 0 calc(100% / var(--size));
 }
