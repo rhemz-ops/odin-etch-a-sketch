@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main-container {
+    border: 1px solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#grid-container {
+    border: 1px solid blue;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.small-div {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
