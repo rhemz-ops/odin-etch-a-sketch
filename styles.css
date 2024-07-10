@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #222;
+}
+
 h1 {
     font-size: 4rem;
     margin: 32px 0;
     text-align: center;
+    color: whitesmoke;
 }
 
 #main-container {
@@ -19,7 +24,7 @@ h1 {
 
 #grid-container {
     background-color: whitesmoke;
-    border: 1px solid blue;
+    border: 2px solid violet;
     width: 650px;
     height: 650px;
     display: flex;
@@ -29,7 +34,7 @@ h1 {
 }
 
 .small-div {
-    border: 1px solid rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(238, 130, 238, 0.534);
     flex: 0 0 calc(100% / var(--size));
 }
 
