@@ -1,1 +1,3 @@
 # odin-etch-a-sketch
+
+This is a very simple etch-a-sketch project that I build. This one is by far the most stressing one for me bacause it took me 2 whole days figuring out how I'm going to implement the Darken and Lighten (even though they're optional), and in that reason those 2 modes are still buggy and need fixing. And I will get back to this project after I learnt more about javascript in TOP. I hope you like it and please tell me if there any other things I could imrpove besides those two.
