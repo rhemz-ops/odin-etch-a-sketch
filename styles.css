@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +7,13 @@
 }
 
 body {
-    background-color: #222;
+    background-color: #31720b;
 }
 
 h1 {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 4rem;
     margin: 32px 0;
     text-align: center;
@@ -19,28 +24,29 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 #grid-container {
-    background-color: whitesmoke;
-    border: 2px solid violet;
+    background-color: #fff;
+    border: 10px solid #000;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
     width: 650px;
     height: 650px;
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .small-div {
-    border: 1px solid rgba(238, 130, 238, 0.534);
+    border: 1px solid #1a3f05;
     flex: 0 0 calc(100% / var(--size));
 }
 
 #controls {
     min-height: 650px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 16px;
 }
@@ -52,10 +58,22 @@ h1 {
 }
 
 #controls .control-btn {
-    border: 2px solid violet;
-    background-color: rgb(241, 147, 241);
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
     text-transform: uppercase;
     font-weight: 900;
     padding: 12px 28px;
     cursor: pointer;
+    transition: .2s;
+}
+
+#controls .control-btn:hover {
+    background-color: #000000;
+    color: #fff;
+} 
+
+#controls .active {
+    background-color: #000000;
+    color: #fff;
 }
